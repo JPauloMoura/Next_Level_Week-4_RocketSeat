@@ -1,7 +1,10 @@
+
 {
   "type": "sqlite",
-  "database": "./caminho/bd.sqlite",
+  "database": "./src/database/database.sqlite",
+  "migrations": ["./src/database/migrations/*.ts"],
+  "entities": ["./src/models/*.ts"],
   "cli": {
-    "migrationsDir": "./caminho/dasMigrations"
+    "migrationsDir": "./src/database/migrations"
   }
 }
