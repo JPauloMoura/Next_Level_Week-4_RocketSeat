@@ -1,0 +1,7 @@
+{
+  "type": "sqlite",
+  "database": "./caminho/bd.sqlite",
+  "cli": {
+    "migrationsDir": "./caminho/dasMigrations"
+  }
+}
