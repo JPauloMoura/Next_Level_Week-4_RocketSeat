@@ -11,7 +11,7 @@ class User{
   }
 
   @PrimaryColumn() //chave primaria
-  readonly id: string   // esse id tera somente leitura
+  readonly id: string   // esse id sera somente leitura
 
   @Column()    //ou  | @Column('name')
   name: string //    | nameUser: string
