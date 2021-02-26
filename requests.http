@@ -19,4 +19,13 @@ content-type: application/json
 ### BUSCAR TODAS AS PESQUISAS
 GET http://localhost:3333/surveys HTTP/1.1
 
+### Enviar email
+POST http://localhost:3333/sendEmail HTTP/1.1
+content-type: application/json
+
+{
+  "email": "vick@hotmail.com",
+  "survey_id": "ae0a6c7a-b993-4b65-b4ff-5320d12daa0c"
+}
+
 ###
