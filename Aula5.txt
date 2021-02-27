@@ -1,0 +1,19 @@
+========== Aula 4 NLW ==========
+- Criar controller para resposta do usuario
+- Criar o caulo de Nps
+- criar validaçõe
+  $ npm i yup
+
+- reafatoração: remover banco de dados apos a execução dos testes
+  - use a função
+
+  - refatore o script de teste do package.json
+    - o '-i' significa que um teste so pode ser executado apos o outro finalizar
+    "scripts": {
+      "test": "NODE_ENV=test jest -i"
+    },
+
+  - lib para lidar com erros]
+    $ npm i express-async-errors
+
+#missioncomplete
